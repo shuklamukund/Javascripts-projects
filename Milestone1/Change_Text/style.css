@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#container{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+#text{
+    color: tomato;
+    font-size: 35px;
+}
+#btn{
+    color: rgb(22, 224, 235);
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    
+}

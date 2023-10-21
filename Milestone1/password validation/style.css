@@ -1,0 +1,24 @@
+input{
+    width: 100%;
+    border-radius: 5px;
+   box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+}
+input[type=submit]{
+    background-color: rgb(6, 112, 112);
+    color: white;
+}
+/* #container{
+    background-color: rgb(246, 56, 56);
+    padding: 10px;
+} */
+
+.valid{
+    color: green;
+}
+
+
+.invalid{
+    color: red;
+}

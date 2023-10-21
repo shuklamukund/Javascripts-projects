@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>OrderPrice</title>
+</head>
+<body>
+    <h1>Cart Total Calculator</h1>
+
+  <div>
+    <label for="unitPrice">Unit Price:</label>
+    <input type="number" id="unitPrice">
+  </div>
+
+  <div>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity">
+  </div>
+
+  <button onclick="addItemToCart()">Add Item</button>
+  <button onclick="calculateTotalCost()">Calculate Total Cost</button>
+
+  <div id="cartItems">
+    <!-- Cart items will be displayed here -->
+  </div>
+
+  <div id="totalCost">
+    <!-- Total cost will be displayed here -->
+  </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
